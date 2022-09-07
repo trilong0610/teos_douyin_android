@@ -35,7 +35,6 @@ android {
 
 dependencies {
 
-    implementation files('../libs/mobile-ffmpeg-full-gpl-4.4.aar')
     def work_version = "2.5.0"
 
     implementation 'androidx.appcompat:appcompat:1.0.0'
