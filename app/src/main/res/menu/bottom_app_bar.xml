@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mnu_item_douyin"
+        android:title="Tải video"
+        android:icon="@drawable/icons8_play_button_circled_80"
+        app:cnb_iconColor="@color/facebook"
+        />
+    <item
+        android:id="@+id/mnu_item_user"
+        android:title="Tải người dùng"
+        android:icon="@drawable/icons8_male_user_80"
+        app:cnb_iconColor="@color/pink"
+        />
+    <item
+        android:id="@+id/mnu_item_about_us"
+        android:title="Thông tin"
+        android:icon="@drawable/icons8_info_80"
+        app:cnb_iconColor="@color/gray"
+        />
+</menu>

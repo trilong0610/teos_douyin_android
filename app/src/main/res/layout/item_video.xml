@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:id="@+id/cardview_avt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="160dp"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp">
+            <!--                android:layout_width="180dp"-->
+            <!--                android:layout_height="320dp"-->
+            <ImageView
+                android:id="@+id/iv_item_avatar"
+                android:layout_width="160dp"
+                android:layout_height="210dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/background_item_user_avatar"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/chk_item_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txt_item_duration_douyin"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:minWidth="20dp" />
+            <!--                id video-->
+
+
+
+            <!--                     Dung luong video -->
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/txt_item_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="ID: 1"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <!--                Thoi gian video-->
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/txt_item_duration_douyin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@+id/txt_item_position"
+                android:text="Time: 5s"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
